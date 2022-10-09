@@ -121,7 +121,7 @@ input:focus::placeholder {
 .command:active,
 .calculatorNumbers:active,
 .mathSymbols:active,
-.mathSymbolsDot:active
+.mathSymbolsDot:active,
 .mathEqual:active {
     transition: 0s;
     background-color: var(--color-button-click-calculator);  

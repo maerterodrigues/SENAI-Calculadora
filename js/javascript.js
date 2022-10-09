@@ -14,7 +14,6 @@
         var numbers = this.value
         parseFloat(numbers)
         display.value += parseFloat(numbers)
-        console.log(parseFloat(numbers))
     })
 }
 
@@ -22,7 +21,6 @@
     mathSymbols[i].addEventListener("click", function() {
         var symbol = this.value
         display.value += symbol
-        console.log(symbol)
     })
 }
 
@@ -38,6 +36,10 @@
 
     allClear.addEventListener("click", () => {
         display.value = ""
+    })
+
+    backspace.addEventListener("click", () => {
+       display.value = display.value.substring(0, display.value.length - 1)
     })
 
 })()
