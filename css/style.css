@@ -186,7 +186,13 @@ a {
 
 @media screen and (min-width: 648px ){
     .calculator {
-        width: 35vw;
+        width: 33vw;
+    }
+}
+
+@media screen and (min-width: 928px ){
+    .calculator {
+        width: 25vw;
     }
 }
 
