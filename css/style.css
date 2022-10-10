@@ -112,7 +112,7 @@ input:focus::placeholder {
 .command:hover,
 .calculatorNumbers:hover,
 .mathSymbols:hover,
-.mathSymbolsDot:hover,
+.mathSymbolDot:hover,
 .mathEqual:hover {
     transition: 0s;
     background-color: var(--color-button-hover-calculator);
@@ -121,7 +121,7 @@ input:focus::placeholder {
 .command:active,
 .calculatorNumbers:active,
 .mathSymbols:active,
-.mathSymbolsDot:active,
+.mathSymbolDot:active,
 .mathEqual:active {
     transition: 0s;
     background-color: var(--color-button-click-calculator);  
@@ -140,6 +140,7 @@ input:focus::placeholder {
 }
 
 .mathSymbols,
+.mathSymbolDot,
 .mathEqual {
     display: flex;
     flex-wrap: wrap;

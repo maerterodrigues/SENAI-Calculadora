@@ -6,6 +6,7 @@
     var backspace = document.querySelector("#del")
     var numbers = document.querySelectorAll(".calculatorNumbers")
     var mathSymbols = document.querySelectorAll(".mathSymbols")
+    var mathSymbolDot = document.querySelector(".mathSymbolDot")
     var mathEqual = document.querySelector(".mathEqual")
     var display = document.querySelector(".inputDisplay")
 
@@ -23,6 +24,11 @@
         display.value += symbol
     })
 }
+
+    mathSymbolDot.addEventListener("click", function() {
+        var dot = this.value
+        display.value += dot
+    })
 
     mathEqual.addEventListener("click", function(){
         if (display.value === "") {
