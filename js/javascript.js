@@ -38,6 +38,7 @@
             var result = eval(display.value)
             display.value = result
         }
+        
     })
 
 
