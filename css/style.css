@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,8 @@
 }
 
 :root {
-    --font-family: 'Inter Tight', sans-serif;
+    --font-family-display: 'Inter Tight', sans-serif;
+    --font-family-buttons: 'Josefin Sans', sans-serif;
     --color-light-gray: rgba(196, 196, 196, 0.4);
     --color-white: rgb(255, 255, 255);
     --color-black: rgb(0, 0, 0);
@@ -81,6 +82,7 @@ section {
     font-size: 1.5rem;
     color: var(--color-white);
     text-align: right;
+    font-family: var(--font-family-display);
     height: 55px;
     width: 80%;
     background-color: var(--color-black);
@@ -103,6 +105,7 @@ input:focus::placeholder {
 .command,
 .calculatorNumbers {
     background-color: var(--color-white);
+    font-family: var(--font-family-buttons);
     font-size: 1.4rem;
     border: none;
     width: 100%;
@@ -188,22 +191,75 @@ a {
     .calculator {
         width: 55vw;
     }
+    .logoLinkedin {
+        width: 7vmin;
+    }
+    
+    .logoGithub {
+        width: 6.8vmin;
+    }
 }
 
 @media screen and (min-width: 648px ){
     .calculator {
         width: 33vw;
     }
+    .logoLinkedin {
+        width: 4vmin;
+    }
+    .logoGithub {
+        width: 3.8vmin;
+    }
 }
 
-@media screen and (min-width: 928px ){
+@media screen and (min-width: 828px ){
     .calculator {
         width: 25vw;
+    }
+    .logoLinkedin {
+        width: 3vmin;
+    }
+    
+    .logoGithub {
+        width: 2.8vmin;
     }
 }
 
 @media screen and (min-width: 1368px) {
     .calculator {
+        width: 22vw;
+    }
+    .logoLinkedin {
+        width: 3vmin;
+    }
+    
+    .logoGithub {
+        width: 2.8vmin;
+    }
+}
+
+@media screen and (min-width: 1620px) {
+    .calculator {
         width: 17vw;
+    }
+    .logoLinkedin {
+        width: 3vmin;
+    }
+    
+    .logoGithub {
+        width: 2.8vmin;
+    }
+}
+
+@media screen and (min-width: 2148px) {
+    .calculator {
+        width: 15px;
+    }
+    .logoLinkedin {
+        width: 4vmin;
+    }
+    
+    .logoGithub {
+        width: 3.8vmin;
     }
 }
