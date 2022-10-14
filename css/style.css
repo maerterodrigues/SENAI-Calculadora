@@ -10,6 +10,7 @@
 :root {
     --font-family-display: 'Inter Tight', sans-serif;
     --font-family-buttons: 'Josefin Sans', sans-serif;
+    --text-shadow-title-subtitle: 0px 2px 3px rgba(255, 255, 255, 0.5);
     --color-light-gray: rgba(196, 196, 196, 0.4);
     --color-white: rgb(255, 255, 255);
     --color-black: rgb(0, 0, 0);
@@ -33,12 +34,18 @@ header {
     font-family: var(--font-family);
 }
 
-/* In case a title or subtitle is needed, add all
+.titlePage,
+.subTitle {
+    font-family: var(--font-family-display);
+    font-weight: 900;
+}
+
 .titlePage {
     background-color: var(--color-black);
     color: transparent;
-    margin-top: 8vh;
-    text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+    font-size: 1.8rem;
+    margin-top: 9vh;
+    text-shadow: var(--text-shadow-title-subtitle);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -46,12 +53,14 @@ header {
 
 .subTitle {
     color: transparent;
+    margin-top: 8px;
+    font-size: 0.8rem;
     background-color: var(--color-black);
-    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.5);
+    text-shadow: var(--text-shadow-title-subtitle);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-} */
+}
 
 section {
     display: flex;
@@ -62,7 +71,7 @@ section {
     display: flex;
     flex-direction: column;
     background-color: var(--color-light-gray);
-    margin-top: 25vh; /* Change the margin value in order to center the calculator to the middle of the screen */
+    margin-top: 9vh; /* Change the margin value in order to center the calculator to the middle of the screen */
     border-radius: 25px;
     box-shadow: var(--color-shadow-calculator);
     border: var(--color-border-calculator);
