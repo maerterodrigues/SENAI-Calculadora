@@ -7,20 +7,43 @@
     transition: 1s;
 }
 
+/* Universal condition to the page */
 :root {
     --font-family-display: 'Inter Tight', sans-serif;
     --font-family-buttons: 'Josefin Sans', sans-serif;
+}
+
+.light-theme {
     --text-shadow-title-subtitle: 0px 2px 3px rgba(255, 255, 255, 0.5);
-    --color-light-gray: rgba(196, 196, 196, 0.4);
-    --color-white: rgb(255, 255, 255);
-    --color-black: rgb(0, 0, 0);
+    --color-calculator: rgba(238, 238, 238, 0.4);
     --color-background: rgb(255, 255, 255);
-    --color-shadow-calculator: 2px 8px 10px rgba(0,0,0,0.3);
-    --color-shadow-buttons: 2px 4px 5px rgba(0,0,0,0.2);
+    --color-text-display: rgb(255, 255, 255);
+    --color-clip-text: rgb(0, 0, 0);
+    --color-background-display: rgb(0, 0, 0);
+    --color-shadow-calculator: 2px 6px 10px rgba(0,0,0,0.3);
+    --color-shadow-buttons: 2px 3px 5px rgba(0,0,0,0.2);
+    --color-shadow-display: 2px 3px 5px rgba(0,0,0,0.2);
     --color-border-calculator: 1px solid rgb(207, 207, 207);
     --color-button-hover-calculator: rgb(223, 223, 223);
     --color-button-click-calculator: rgb(112, 112, 112);
+    --logos-filter-saturate: saturate(0);
+    --logos-filter-brightness: brightness(0);
 }
+
+.dark-theme {
+    --text-shadow-title-subtitle: 0px 2px 1px rgba(0, 0, 0, 0.25);
+    --color-text-display: rgb(0, 0, 0);
+    --color-clip-text: rgb(255, 255, 255);
+    --color-background: rgb(10, 10, 10);
+    --color-calculator: rgb(253, 253, 253);
+    --color-shadow-buttons: 2px 3px 5px rgba(0, 0, 0, 0.5);
+    --color-shadow-display: 2px 3px 5px rgba(0,0,0,0.2);
+    --color-button-hover-calculator: rgb(223, 223, 223);
+    --color-button-click-calculator: rgb(112, 112, 112);
+    --logos-filter-saturate: saturate(255);
+    --logos-filter-brightness: brightness(255);
+}
+
 
 body {
     background-color: var(--color-background);
@@ -37,29 +60,29 @@ header {
 .titlePage,
 .subTitle {
     font-family: var(--font-family-display);
+    text-shadow: var(--text-shadow-title-subtitle);
     font-weight: 900;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    background-color: var(--color-clip-text);
+    color: transparent;
 }
 
 .titlePage {
-    background-color: var(--color-black);
-    color: transparent;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     margin-top: 9vh;
-    text-shadow: var(--text-shadow-title-subtitle);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
 }
 
 .subTitle {
-    color: transparent;
     margin-top: 8px;
     font-size: 0.8rem;
-    background-color: var(--color-black);
-    text-shadow: var(--text-shadow-title-subtitle);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
+}
+
+.changeTheme {
+    margin-top: 25px;
+    padding: 10px;
+    padding-right: 30px;
 }
 
 section {
@@ -70,12 +93,13 @@ section {
 .calculator {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-light-gray);
-    margin-top: 9vh; /* Change the margin value in order to center the calculator to the middle of the screen */
+    background-color: var(--color-calculator);
+    margin-top: 2.6vh; /* Change the margin value in order to center the calculator to the middle of the screen */
     border-radius: 25px;
     box-shadow: var(--color-shadow-calculator);
     border: var(--color-border-calculator);
     width: 50vw;
+    padding-bottom: 5px;
 }
 
 .displayCalculator {
@@ -89,12 +113,12 @@ section {
 
 .inputDisplay {
     font-size: 1.5rem;
-    color: var(--color-white);
+    color: var(--color-text-display);
     text-align: right;
     font-family: var(--font-family-display);
     height: 55px;
     width: 80%;
-    background-color: var(--color-black);
+    background-color: var(--color-background-display);
     border-radius: 10px;
     box-shadow: var(--color-shadow-buttons);
 }
@@ -113,7 +137,6 @@ input:focus::placeholder {
 
 .command,
 .calculatorNumbers {
-    background-color: var(--color-white);
     font-family: var(--font-family-buttons);
     font-size: 1.4rem;
     border: none;
@@ -122,6 +145,8 @@ input:focus::placeholder {
     cursor: pointer;
     margin-right: 4px;
     margin-bottom: 4px;
+    border-radius: 5px;
+    background-color: transparent;
     box-shadow: var(--color-shadow-buttons);
 }
 
@@ -161,12 +186,13 @@ input:focus::placeholder {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    background-color: var(--color-white);
     font-size: 1.4rem;
     border: none;
     cursor: pointer;
     margin-right: 4px;
     margin-bottom: 4px;
+    border-radius: 5px;
+    background-color: transparent;
     box-shadow: var(--color-shadow-buttons);
 }
 
@@ -183,29 +209,33 @@ a {
     text-decoration: none;
 }
 
+.logoLinkedin,
+.logoGithub {
+    filter: var(--logos-filter-saturate);
+    filter: var(--logos-filter-brightness);
+}
+
 .logoLinkedin {
-    filter: saturate(0);
-    filter: brightness(0);
     width: 4vmin;
     margin-right: 5px;
 }
 
 .logoGithub {
-    filter: saturate(0);
-    filter: brightness(0);
     width: 3.8vmin;
 }
+
+/* Proportions to specific displays sizes */
 
 @media screen and (min-width: 324px) {
     .calculator {
         width: 55vw;
     }
     .logoLinkedin {
-        width: 7vmin;
+        width: 6.8vmin;
     }
     
     .logoGithub {
-        width: 6.8vmin;
+        width: 6.5vmin;
     }
 }
 
