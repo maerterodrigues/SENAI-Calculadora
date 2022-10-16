@@ -303,7 +303,7 @@ a {
 
 /* Proportions to specific displays sizes */
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 200px) and (max-width: 347px) {
     .changeTheme {
         margin-top: 3vh;
         right: 7.5vmin;
@@ -330,7 +330,7 @@ a {
     }
 }
 
-@media screen and (min-width: 324px) {
+@media screen and (min-width: 348px) {
     .calculator {
         width: 60vw;
     }
