@@ -303,6 +303,32 @@ a {
 
 /* Proportions to specific displays sizes */
 
+@media screen and (min-width: 200px) {
+    .changeTheme {
+        margin-top: 3vh;
+        right: 7.5vmin;
+        width: 45px;
+        height: 45px;
+    }
+    .calculator {
+        width: 70vw;
+    }
+    .logoPortfolio,
+    .logoLinkedin,
+    .logoGithub {
+        margin-top: 1.5vh;
+    }
+    .logoPortfolio {
+        width: 9.39vmin;
+    }
+    .logoLinkedin {
+        width: 9.8vmin;
+    }
+    
+    .logoGithub {
+        width: 9.5vmin;
+    }
+}
 
 @media screen and (min-width: 324px) {
     .calculator {
@@ -321,7 +347,7 @@ a {
 }
 
 @media screen and (min-width: 648px) {
-    .changeTheme{
+    .changeTheme {
         right: 13vmin;
     }
     .calculator {
@@ -339,7 +365,7 @@ a {
 }
 
 @media screen and (min-width: 828px) {
-    .changeTheme{
+    .changeTheme {
         right: 19vmin;
     }
     .calculator {
@@ -358,7 +384,7 @@ a {
 }
 
 @media screen and (min-width: 1362px) {
-    .changeTheme{
+    .changeTheme {
         right: 35vmin;
     }
     .calculator {
@@ -377,7 +403,7 @@ a {
 }
 
 @media screen and (min-width: 1620px) {
-    .changeTheme{
+    .changeTheme {
         right: 55vmin;
     }
     .calculator {
@@ -396,7 +422,7 @@ a {
 }
 
 @media screen and (min-width: 2148px) {
-    .changeTheme{
+    .changeTheme {
         right: 60vmin;
     }
     .calculator {
