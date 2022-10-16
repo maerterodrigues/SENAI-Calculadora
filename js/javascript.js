@@ -41,11 +41,6 @@
         
     })
 
-    mathEqual.addEventListener("keydown", function(e){
-        console.log(e.key)
-    })
-
-
     allClear.addEventListener("click", () => {
         display.value = ""
     })
@@ -57,7 +52,6 @@
 })()
 
 // Function to switch between dark and light mode
-
 function switchTheme() {
     document.body.classList.toggle('dark-theme');
     document.body.classList.toggle('light-theme');
