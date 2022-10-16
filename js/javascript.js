@@ -41,11 +41,6 @@
         
     })
 
-    mathEqual.addEventListener("keydown", function(e){
-        console.log(e.key)
-    })
-
-
     allClear.addEventListener("click", () => {
         display.value = ""
     })
