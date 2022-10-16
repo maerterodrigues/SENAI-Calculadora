@@ -35,7 +35,7 @@
         if (display.value === "") { // If the equal button is pressed and the display is empty, the value of "empty" will be returned
             display.value = ""
         } else { // Else, if the display is not empty, the calculation of the numbers and math symbols inside the display will be done
-            var result = eval(display.value)
+            var result = eval(display.value).toFixed(2) //toFixed function rounds up the number to 2 decimals
             display.value = result
         }
         
