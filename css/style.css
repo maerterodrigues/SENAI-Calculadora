@@ -104,7 +104,7 @@ header {
 
 .titlePage {
     font-size: 1.9rem;
-    margin-top: 9vh;
+    margin-top: 12.5vh;
 }
 
 .subTitle {
@@ -115,7 +115,7 @@ header {
 .changeTheme {
     position: absolute;
     cursor: pointer;
-    margin-top: 6vh;
+    margin-top: 7vh;
     right: 9vw;
     background-image: var(--logo-dark-light-mode);
     background-color: var(--color-background-light-dark-mode-button);
@@ -146,7 +146,7 @@ section {
     display: flex;
     flex-direction: column;
     background-color: var(--color-calculator);
-    margin-top: 2.75vh; /* Change the margin value in order to center the calculator to the middle of the screen */
+    margin-top: 7.75vh; /* Change the margin value in order to center the calculator to the middle of the screen */
     border-radius: 25px;
     box-shadow: var(--color-shadow-calculator);
     width: 50vw;
@@ -278,6 +278,12 @@ a {
     text-decoration: none;
 }
 
+.logoPortfolio,
+.logoLinkedin,
+.logoGithub {
+    margin-top: 5vh;
+}
+
 .logoPortfolio {
     content: var(--logo-portfolio-dark-light);
     width: 2.92vmin;
@@ -300,7 +306,7 @@ a {
 
 @media screen and (min-width: 324px) {
     .calculator {
-        width: 55vw;
+        width: 60vw;
     }
     .logoPortfolio {
         width: 6.39vmin;
