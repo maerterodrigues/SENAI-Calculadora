@@ -315,6 +315,9 @@ a {
 }
 
 @media screen and (min-width: 648px) {
+    .changeTheme{
+        right: 13vmin;
+    }
     .calculator {
         width: 33vw;
     }
@@ -330,6 +333,9 @@ a {
 }
 
 @media screen and (min-width: 828px) {
+    .changeTheme{
+        right: 19vmin;
+    }
     .calculator {
         width: 25vw;
     }
@@ -345,7 +351,10 @@ a {
     }
 }
 
-@media screen and (min-width: 1368px) {
+@media screen and (min-width: 1362px) {
+    .changeTheme{
+        right: 35vmin;
+    }
     .calculator {
         width: 22vw;
     }
@@ -362,6 +371,9 @@ a {
 }
 
 @media screen and (min-width: 1620px) {
+    .changeTheme{
+        right: 55vmin;
+    }
     .calculator {
         width: 17vw;
     }
@@ -378,6 +390,9 @@ a {
 }
 
 @media screen and (min-width: 2148px) {
+    .changeTheme{
+        right: 60vmin;
+    }
     .calculator {
         width: 15px;
     }
