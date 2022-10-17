@@ -10,3 +10,19 @@
 </h1>
 
 Tendo como base o curso de <a href="https://online.sp.senai.br/curso/95088/483/competencia-transversal-logica-de-programacao"> Competência Transversal - Lógica de Programação</a>, desenvolvido pelo <a href="https://www.sp.senai.br/"> Serviço Nacional de Aprendizagem Industrial (SENAI)</a>, criei uma calculadora para fins didáticos e de aprendizado após a conclusão do curso, que propõe como desafio o desenvolvimento de uma calculadora, tendo como base o aprendizado e a teoria da lógica de programação visto durante o curso.
+
+<h1>
+  Página
+</h1>
+
+<img align="right" src="https://user-images.githubusercontent.com/61281445/196073335-53f20678-db4d-4a90-9b35-c0d3d749bfe6.gif">
+<p align="justify">Para este exercício, criei</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/61281445/196071968-df23ce1a-4618-47c3-ad60-103731dd5b7d.gif" alt="Gif Favicon">
+</p>
+<p align="center">
+  <img width="25%" src="https://user-images.githubusercontent.com/61281445/196072038-f020131b-5390-4648-b636-f27e747e21a1.png" alt="Icone">
+  <img width="25%" src="https://user-images.githubusercontent.com/61281445/196072048-9c3aeb29-44eb-4d74-8e6c-69e7751a09a2.png">
+</p>
+
