@@ -25,7 +25,7 @@ Tendo como base o curso de <a href="https://online.sp.senai.br/curso/95088/483/c
   <br>Página
 </h1>
 <img align="right" src="https://user-images.githubusercontent.com/61281445/196073335-53f20678-db4d-4a90-9b35-c0d3d749bfe6.gif">
-<p align="left">
+<p align="justify">
   Criada utilizando HTML, CSS e Javascript, onde, além do foco na usabilidade e funcionalidade da calculadora, também foi tido como foco o visual e usabilidade da página como um todo.
 </p>
   
