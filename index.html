@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,81 +9,81 @@
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
     <title>Calculadora - Maerte Rodrigues</title>
 </head>
-<body class="dark-theme">
-    <header>
+<body class="dark-theme" aria-label="Site carregado e com uma calculadora no meio da página" role="body">
+    <header aria-label="Titulo e subtitulo da página" role="heading">
         <p class="titlePage"> Calculadora</p>
         <p class="subTitle"> Feito por Maerte Rodrigues</p>
-        <button class="changeTheme" onclick="switchTheme()"></button>
+        <button aria-label="Botão com uma imagem de uma lua crescente e um sol. Representando a funcionalidade do botão de trocar o esquema de cores da página entre escuro e claro" role="button" class="changeTheme" onclick="switchTheme()"></button>
     </header>
 
-    <main>
+    <main aria-label="Calculadora" role="main">
         <section>
             <div class="calculator">
                 <div class="displayCalculator">
-                    <input type="text" class="inputDisplay" placeholder="0">
+                    <input aria-label="Caixa de texto onde pode ser digitado os números e onde o resultado da conta aparecerá" role="textbox" class="inputDisplay" placeholder="0">
                 </div>
                 <div class="inputCalculator">
                     <div class="commandsRow">
-                        <button type="button" class="mathSymbols" value="/">
+                        <button aria-label="Botão com sinal de divisão" role="option" type="button" class="mathSymbols" value="/">
                             /
                         </button>
-                        <button class="command" id="ac">
+                        <button aria-label="Botão com símbolo de All Clear, para apagar todos os elementos dentro da caixa de texto" role="option" class="command" id="ac">
                             AC
                         </button>
-                        <button class="command" id="del">
+                        <button aria-label="Botão com símbolo de Delete, para apagar o último item digitado dentro da caixa de texto" role="option" class="command" id="del">
                             DEL
                         </button>
                     </div>
                     <div class="row789">
-                        <button type="button" class="mathSymbols" value="*">
+                        <button aria-label="Botão com sinal de mutiplicação" role="option" type="button" class="mathSymbols" value="*">
                             *
                         </button>
-                        <button type="button" class="calculatorNumbers" value="9">
+                        <button aria-label="Botão com o número 9" role="option" type="button" class="calculatorNumbers" value="9">
                         9
                         </button>
-                        <button type="button" class="calculatorNumbers" value="8">
+                        <button aria-label="Botão com o número 8" role="option" type="button" class="calculatorNumbers" value="8">
                         8
                         </button>
-                        <button type="button" class="calculatorNumbers" value="7">
+                        <button aria-label="Botão com o número 7" role="option" type="button" class="calculatorNumbers" value="7">
                         7
                         </button>
                     </div>
                     <div class="row456">
-                        <button type="button" class="mathSymbols" value="-">
+                        <button aria-label="Botão com sinal de subtração" role="option" type="button" class="mathSymbols" value="-">
                             -
                         </button>
-                        <button type="button" class="calculatorNumbers" value="6">
+                        <button aria-label="Botão com o número 6" role="option" type="button" class="calculatorNumbers" value="6">
                         6
                         </button>
-                        <button type="button" class="calculatorNumbers" value="5">
+                        <button aria-label="Botão com o número 5" role="option" type="button" class="calculatorNumbers" value="5">
                         5
                         </button>
-                        <button type="button" class="calculatorNumbers" value="4">
+                        <button aria-label="Botão com o número 4" role="option" type="button" class="calculatorNumbers" value="4">
                         4
                         </button>
                     </div>
                     <div class="row123">
-                        <button type="button" class="mathSymbols" value="+">
+                        <button aria-label="Botão com sinal de adição" role="option" type="button" class="mathSymbols" value="+">
                             +
                         </button>
-                        <button type="button" class="calculatorNumbers" value="3">
+                        <button aria-label="Botão com o número 3" role="option" type="button" class="calculatorNumbers" value="3">
                         3
                         </button>
-                        <button type="button" class="calculatorNumbers" value="2">
+                        <button aria-label="Botão com o número 2" role="option" type="button" class="calculatorNumbers" value="2">
                         2
                         </button>
-                        <button type="button" class="calculatorNumbers" value="1">
+                        <button aria-label="Botão com o número 1" role="option" type="button" class="calculatorNumbers" value="1">
                         1
                         </button>
                     </div>
-                    <div class="row0">
+                    <div aria-label="Botão com sinal de igual" role="option" class="row0">
                         <button type="button" class="mathEqual" value="=">
                             =
                         </button>
-                        <button type="button" class="calculatorNumbers" value="0">
+                        <button aria-label="Botão com o número 0" role="option" type="button" class="calculatorNumbers" value="0">
                         0
                         </button>
-                        <button type="button" class="mathSymbolDot" value=".">
+                        <button aria-label="Botão com um sinal de ponto" role="option" type="button" class="mathSymbolDot" value=".">
                             .
                         </button>
                     </div>
@@ -92,16 +92,16 @@
         </section>
     </main>
 
-    <footer>
+    <footer aria-label="Seção da página com ícones que direcionam à uma outra página da internet recomendadas pelo autor" role="doc-footnote">
         <p class="imgPosition">
-            <a href="https://maerterodrigues.wixsite.com/portfolio" target="_blank"  title="Portfolio Website">
-                <img class="logoPortfolio" src="img/LOGO_PORTFOLIO_WHITE.svg" alt="Logo Portfolio Website">
+            <a aria-label="Link para o portfolio do autor da página" role="link" href="https://maerterodrigues.wixsite.com/portfolio" target="_blank"  title="Portfolio Website">
+                <img aria-label="Imagem de um círculo com algumas linhas em seu interior, formando uma rede" role="img" class="logoPortfolio" src="img/LOGO_PORTFOLIO_WHITE.svg" alt="Logo Portfolio Website">
             </a>
-            <a href="https://www.linkedin.com/in/maerte-rodrigues-a5246917a/" target="_blank" title="LinkedIn">
-                <img class="logoLinkedin" src="img/Logo_Linkedin.png" alt="Logo Linkedin">
+            <a aria-label="Link para a página do LinkedIn do autor da página" role="link" href="https://www.linkedin.com/in/maerte-rodrigues-a5246917a/" target="_blank" title="LinkedIn">
+                <img aria-label="Quadrado, levemente arredondado, com as letras minúsculas I e N. Representando a logo do LinkedIn" role="img" class="logoLinkedin" src="img/Logo_Linkedin.png" alt="Logo Linkedin">
             </a>
-            <a href="https://github.com/maerterodrigues/SENAI-calculadora" target="_blank" title="GitHub">
-                <img class="logoGithub" src="img/GitHub_Logo_White.png" alt="Logo GitHub">
+            <a aria-label="Link para a página do GitHub deste projeto criado" role="link" href="https://github.com/maerterodrigues/SENAI-calculadora" target="_blank" title="GitHub">
+                <img aria-label="Círculo com um desenho vazado em seu interior no formato de um gato, com orelhas pontudas e um rabo. Representando a Logo do GitHub" role="img" class="logoGithub" src="img/GitHub_Logo_White.png" alt="Logo GitHub">
             </a>
         </p>
     </footer>
