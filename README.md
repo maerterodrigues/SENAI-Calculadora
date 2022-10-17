@@ -24,9 +24,9 @@ Tendo como base o curso de <a href="https://online.sp.senai.br/curso/95088/483/c
 <h1>
   <br>Página
 </h1>
-<img align="right" src="https://user-images.githubusercontent.com/61281445/196073335-53f20678-db4d-4a90-9b35-c0d3d749bfe6.gif">
+<img width="62%" align="right" src="https://user-images.githubusercontent.com/61281445/196073335-53f20678-db4d-4a90-9b35-c0d3d749bfe6.gif">
 <p align="justify">
-  Criada utilizando HTML, CSS e Javascript, onde, além do foco na usabilidade e funcionalidade da calculadora, também foi tido como foco o visual e usabilidade da página como um todo.
+Criada utilizando HTML, CSS e Javascript, onde, além do foco na usabilidade e funcionalidade da calculadora, também foi tido como foco o visual e usabilidade da página como um todo.
 </p>
   
  ### Principais Funcionalidades
@@ -38,11 +38,11 @@ Tendo como base o curso de <a href="https://online.sp.senai.br/curso/95088/483/c
 <h1>
   <br>Favicon Dark e Light
 </h1>
-<br><br>
-<p align="center">
+teste
+<p align="right">
   <img align="center" width="50%" src="https://user-images.githubusercontent.com/61281445/196071968-df23ce1a-4618-47c3-ad60-103731dd5b7d.gif" alt="Gif Favicon">
 </p>
-<p align="center">
-  <img align="center" width="20%" src="https://user-images.githubusercontent.com/61281445/196072038-f020131b-5390-4648-b636-f27e747e21a1.png" alt="Icone">
-  <img align="center" width="20%" src="https://user-images.githubusercontent.com/61281445/196072048-9c3aeb29-44eb-4d74-8e6c-69e7751a09a2.png">
-</p>
+
+Favicon dark             |  Favicon Light
+:-------------------------:|:-------------------------:
+<img align="center" width="20%" src="https://user-images.githubusercontent.com/61281445/196072038-f020131b-5390-4648-b636-f27e747e21a1.png" alt="Icone">  |  <img align="center" width="20%" src="https://user-images.githubusercontent.com/61281445/196072048-9c3aeb29-44eb-4d74-8e6c-69e7751a09a2.png">
