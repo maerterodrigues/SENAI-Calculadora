@@ -2,7 +2,7 @@
 
 <p align="center">
     <br><br>
-    <img width="35%" src="https://user-images.githubusercontent.com/61281445/195731324-e0ff5243-f074-4fc7-b143-6abe3cd8fc15.svg" alt="Logo SENAI">
+    <img width="45%" src="https://user-images.githubusercontent.com/61281445/195731324-e0ff5243-f074-4fc7-b143-6abe3cd8fc15.svg" alt="Logo SENAI">
 </p>
 <p align="center">
   <img align="center" alt="Logo HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
