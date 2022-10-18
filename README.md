@@ -28,12 +28,14 @@ Tendo como base o curso de <a href="https://online.sp.senai.br/curso/95088/483/c
 <p align="justify">
 Criada utilizando HTML, CSS e Javascript, onde, além do foco na usabilidade e funcionalidade da calculadora, também foi tido como foco o visual e usabilidade da página como um todo.
 </p>
-  
- ### Principais Funcionalidades
- - Dark e Light mode;
- - Responsive Design, página adaptiva a diferentes tamanhos de displays;
- - <a href="https://developer.mozilla.org/en-US/docs/Glossary/Favicon">Favicon</a> com versões dark e light. Mudam de acordo com o tema claro ou escuro do browser;
- - Uso do atributo <i><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label">aria-label</a></i>, para ajudar usuários que usam programas de text-to-speech.
+
+<h3> Principais Funcionalidades </h3>
+<ul>
+<li><p align="justify">Dark e Light mode;</p></li>
+<li><p align="justify">Responsive Design, página adaptiva a diferentes tamanhos de displays;</p></li>
+<li><p align="justify"<a href="https://developer.mozilla.org/en-US/docs/Glossary/Favicon">Favicon</a> com versões dark e light. Mudam de acordo com o tema claro ou escuro do browser;</p></li>
+<li><p align="justify"Uso do atributo <i><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label">aria-label</a></i>, para ajudar usuários que usam programas de text-to-speech.</p></li>
+</ul>
 
 <h1 align="right">
   <br>Favicon Dark e Light
