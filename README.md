@@ -31,18 +31,18 @@ Criada utilizando HTML, CSS e Javascript, onde, além do foco na usabilidade e f
 
 <h3> Principais Funcionalidades </h3>
 <ul>
-<li><p align="justify">Dark e Light mode;</p></li>
-<li><p align="justify">Responsive Design, página adaptiva a diferentes tamanhos de displays;</p></li>
-<li><p align="justify"<a href="https://developer.mozilla.org/en-US/docs/Glossary/Favicon">Favicon</a> com versões dark e light. Mudam de acordo com o tema claro ou escuro do browser;</p></li>
-<li><p align="justify"Uso do atributo <i><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label">aria-label</a></i>, para ajudar usuários que usam programas de text-to-speech.</p></li>
+<li><p align="justify"><i>Dark</i> e <i>Light mode</i>;</p></li>
+<li><p align="justify"><i>Responsive Design</i>, página adaptiva a diferentes tamanhos de displays;</p></li>
+<li><p align="justify"<a href="https://developer.mozilla.org/en-US/docs/Glossary/Favicon"><i>Favicon</i></a> com versões <i>dark</i> e <i>light</i>. Mudam de acordo com o tema claro ou escuro do <i>browser</i>;</p></li>
+<li><p align="justify">Uso do atributo, <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label"><i>aria-label</i></a>, para auxiliar usuários que utilizam programas de leitura de texto <i>text-to-speech</i>.</p></li>
 </ul>
 
 <h1 align="right">
-  <br>Favicon Dark e Light
+  <br><i>Favicon</i> <i>Dark</i> e <i>Light</i>
 </h1>
 <img align="left" width="50%" src="https://user-images.githubusercontent.com/61281445/196310199-7c202fab-e3c3-4312-92b2-8395a5d9ce50.gif" alt="Gif Favicon">
 <p align="justify">
-    Um Favicon é o ícone atrelado ao site, que pode ser visto na tab do navegador, lista de favoritos e demais lugares onde o favicon é utilizado pelo browser. Neste caso, o favicon da página atual altera de acordo com o tema escuro ou claro do browser.<br> Para conseguir utilizar essa funcionalidade foi utilizado um ícone em <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">svg</a>, do qual, dentro do seu código foi especificado dois diferentes esquema de cores para o tema escuro e tema claro do browser utilizado.
+    Um <i>Favicon</i> é o ícone atrelado ao site, que pode ser visto na tab do navegador, lista de favoritos e demais lugares onde o <i>favicon</i> é utilizado pelo browser. Neste caso, o <i>favicon</i> da página atual altera de acordo com o tema escuro ou claro do browser.<br> Para conseguir utilizar essa funcionalidade foi utilizado um ícone em <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">svg</a>, do qual, dentro do seu código foi especificado dois diferentes esquema de cores para o tema escuro e tema claro do browser utilizado.
 </p>
 <br><br><br><br>
 
