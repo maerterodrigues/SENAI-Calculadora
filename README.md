@@ -24,7 +24,7 @@ Tendo como base o curso de <a href="https://online.sp.senai.br/curso/95088/483/c
 <h1>
   <br>Página
 </h1>
-<img width="62%" align="right" src="https://user-images.githubusercontent.com/61281445/196310875-554d7004-d3b1-4b04-a5c4-69eda63aefff.gif">
+<img width="62%" align="right" src="https://user-images.githubusercontent.com/61281445/196311537-fceb08b6-17b3-48d2-ab22-d968facbb21c.gif">
 <p align="justify">
 Criada utilizando HTML, CSS e Javascript, onde, além do foco na usabilidade e funcionalidade da calculadora, também foi tido como foco o visual e usabilidade da página como um todo.
 </p>
@@ -43,8 +43,6 @@ Criada utilizando HTML, CSS e Javascript, onde, além do foco na usabilidade e f
     Um Favicon é o ícone atrelado ao site, que pode ser visto na tab do navegador, lista de favoritos e demais lugares onde o favicon é utilizado pelo browser. Neste caso, o favicon da página atual altera de acordo com o tema escuro ou claro do browser.<br> Para conseguir utilizar essa funcionalidade foi utilizado um ícone em <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">svg</a>, do qual, dentro do seu código foi especificado dois diferentes esquema de cores para o tema escuro e tema claro do browser utilizado.
 </p>
 <br><br><br><br>
-![teste2](https://user-images.githubusercontent.com/61281445/196310199-7c202fab-e3c3-4312-92b2-8395a5d9ce50.gif)
-![GIF_PAGINA](https://user-images.githubusercontent.com/61281445/196310875-554d7004-d3b1-4b04-a5c4-69eda63aefff.gif)
 
 
 Favicon dark             |  Favicon Light
