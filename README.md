@@ -49,4 +49,4 @@ Criada utilizando HTML, CSS e Javascript, onde, além do foco na usabilidade e f
 
 Favicon dark             |  Favicon Light
 :-------------------------:|:-------------------------:
-<img align="center" width="20%" src="https://user-images.githubusercontent.com/61281445/196072038-f020131b-5390-4648-b636-f27e747e21a1.png" alt="Icone">  |  <img align="center" width="20%" src="https://user-images.githubusercontent.com/61281445/196072048-9c3aeb29-44eb-4d74-8e6c-69e7751a09a2.png">
+<img align="center" width="25%" src="https://user-images.githubusercontent.com/61281445/196072038-f020131b-5390-4648-b636-f27e747e21a1.png" alt="Icone">  |  <img align="center" width="25%" src="https://user-images.githubusercontent.com/61281445/196072048-9c3aeb29-44eb-4d74-8e6c-69e7751a09a2.png">
